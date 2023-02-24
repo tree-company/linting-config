@@ -1,0 +1,20 @@
+{
+  "name": "@tree-company/linting-config",
+  "version": "0.3.0",
+  "description": "Default linting configs for Tree company projects",
+  "main": "index.js",
+  "repository": "https://github.com/tree-company/linting-config",
+  "author": "Tree company <info@treecompany.be>",
+  "contributors": ["Robbe Van Petegem <robbe@vanpetegem.me>"],
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "eslint-config",
+    "stylelint-config"
+  ],
+  "devDependencies": {
+    "@tree-company/eslint-config": "^0.0.4",
+    "eslint": "^8.34.0",
+    "prettier": "^2.8.4"
+  }
+}
