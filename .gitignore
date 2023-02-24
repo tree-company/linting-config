@@ -1,0 +1,9 @@
+# Don't commit dependencies
+node_modules/
+
+# Don't commit output
+dist/*
+!dist/.keep
+
+# Don't commit yarn stuff
+yarn-error.log

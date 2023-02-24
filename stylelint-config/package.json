@@ -1,0 +1,23 @@
+{
+  "name": "@tree-company/stylelint-config",
+  "description": "Default configurations for stylelint",
+  "version": "0.2.0",
+  "repository": "git@github.com:tree-company/developer-handbook",
+  "author": "Tree company <info@treecompany.be>",
+  "contributors": ["Robbe Van Petegem <robbe@vanpetegem.me>"],
+  "license": "MIT",
+  "main": "css.js",
+  "scripts": {},
+  "dependencies": {
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-order": "^6.0.2",
+    "stylelint-prettier": "^3.0.0",
+    "stylelint-semantic-groups": "^1.2.0"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0"
+  }
+}

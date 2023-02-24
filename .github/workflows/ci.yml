@@ -1,0 +1,19 @@
+name: CI
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with: 
+          node-version: 'lts/*'
+          cache: 'yarn'
+      - name: Install dependencies
+        run: yarn install
+      - name: Lint with eslint
+        run: yarn run lint:js --no-fix
