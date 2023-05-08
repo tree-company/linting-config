@@ -12,9 +12,18 @@
     "eslint-config",
     "stylelint-config"
   ],
+  "scripts": {
+    "lint": "yarn lint:js",
+    "lint:js": "eslint . --ext js --fix"
+  },
   "devDependencies": {
     "@tree-company/eslint-config": "^0.2.1",
     "eslint": "^8.40.0",
     "prettier": "^2.8.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@tree-company/eslint-config"
+    ]
   }
 }
