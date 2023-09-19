@@ -25,6 +25,10 @@ jobs:
     - name: Parse tag
       id: parse_tag
       run: "echo ${{ github.ref }} | sed 's#^refs/tags/#::set-output name=version::#'"
+    - name: Publish
+      run: yarn workspace @tree-company/eslint-config publish && yarn workspace @tree-company/stylelint-config publish
+      env:
+        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Create release
       id: create_release
       uses: release-drafter/release-drafter@v5
@@ -35,7 +39,3 @@ jobs:
         publish: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Publish
-      run: yarn workspace @tree-company/eslint-config publish && yarn workspace @tree-company/stylelint-config publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
