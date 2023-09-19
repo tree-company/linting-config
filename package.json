@@ -17,13 +17,12 @@
     "lint:js": "eslint . --ext js --fix"
   },
   "devDependencies": {
-    "@tree-company/eslint-config": "^0.2.1",
     "eslint": "^8.49.0",
     "prettier": "^3.0.3"
   },
   "eslintConfig": {
     "extends": [
-      "@tree-company/eslint-config"
+      "./eslint-config/default.js"
     ]
   }
 }
