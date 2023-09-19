@@ -1,3 +1,9 @@
+# v0.3.1 - 2023/09/19
+Bump required version of prettier to v3.0.x
+
+# v0.3.0 - 2023/09/19
+Accidental release.
+
 # v0.2.1 - 2023/03/01
 Nothing changed - version bump to match other packages
 
