@@ -10,7 +10,7 @@
   "scripts": {},
   "dependencies": {
     "stylelint-config-standard": "^35.0.0",
-    "stylelint-config-standard-scss": "^11.1.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^5.0.0",
     "stylelint-semantic-groups": "^1.2.1"
