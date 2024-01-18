@@ -1,3 +1,6 @@
+# v0.3.2 - 2024/01/18
+* Bump required version of prettier to v3.2.x
+* Bump required version of eslint to v8.56.x
 # v0.3.1 - 2023/09/19
 Bump required version of prettier to v3.0.x
 

@@ -1,7 +1,7 @@
 {
   "name": "@tree-company/stylelint-config",
   "description": "Default configurations for stylelint",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "repository": "git@github.com:tree-company/developer-handbook",
   "author": "Tree company <info@treecompany.be>",
   "contributors": ["Robbe Van Petegem <robbe@vanpetegem.me>"],
