@@ -1,3 +1,6 @@
+# v0.4.2 - 2024/05/06
+Nothing changed - version bump to match other packages
+
 # v0.4.1 - 2024/05/06
 Nothing changed - version bump to match other packages
 

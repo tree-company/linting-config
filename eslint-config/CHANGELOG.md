@@ -1,3 +1,6 @@
+# v0.4.2 - 2024/05/06
+* Fix react config
+
 # v0.4.1 - 2024/05/06
 * Fix filename for main import
 

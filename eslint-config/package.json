@@ -1,7 +1,7 @@
 {
   "name": "@tree-company/eslint-config",
   "description": "Default configurations for eslint",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "repository": "git@github.com:tree-company/developer-handbook",
   "author": "Tree company <info@treecompany.be>",
   "contributors": [
