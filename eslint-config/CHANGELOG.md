@@ -1,3 +1,6 @@
+# v0.4.1 - 2024/05/06
+* Fix filename for main import
+
 # v0.4.0 - 2024/05/06
 * Bump required version of eslint to v9.2.x
 * Rewrite configs to use eslint's new flat config

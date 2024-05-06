@@ -1,6 +1,6 @@
 {
   "name": "@tree-company/linting-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Default linting configs for Tree company projects",
   "main": "index.js",
   "repository": "https://github.com/tree-company/linting-config",
