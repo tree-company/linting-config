@@ -31,6 +31,7 @@ const reactConfig = [
   reactPluginRecommended,
   reactPluginJsxRuntime,
   {
+    files: ["**/*.js", "**/*.jsx"],
     languageOptions: {
       parserOptions: {
         ecmaVersion: 2023,
