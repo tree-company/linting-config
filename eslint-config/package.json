@@ -8,7 +8,7 @@
     "Robbe Van Petegem <robbe@vanpetegem.me>"
   ],
   "license": "MIT",
-  "main": "default.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {},
   "dependencies": {

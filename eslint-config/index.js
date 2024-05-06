@@ -27,7 +27,7 @@ const defaultConfig = [
 ];
 
 const reactConfig = [
-  defaultConfig,
+  ...defaultConfig,
   reactPluginRecommended,
   reactPluginJsxRuntime,
   {
