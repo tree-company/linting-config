@@ -1,3 +1,6 @@
+# v0.4.0 - 2024/05/06
+* Bump required version of stylelint to v16.5.x
+
 # v0.3.2 - 2024/01/18
 * Bump required version of prettier to v3.2.x
 * Bump required version of stylelint to v16.1.x

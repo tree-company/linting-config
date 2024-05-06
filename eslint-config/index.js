@@ -52,7 +52,7 @@ const plugin = {
   // We have to repeat the information from our package.json. [see](https://eslint.org/docs/latest/extend/plugin-migration-flat-config#adding-plugin-meta-information)
   meta: {
     name: "@tree-company/eslint-config",
-    version: "0.3.2",
+    version: "0.4.0",
   },
   configs: {
     default: defaultConfig,
