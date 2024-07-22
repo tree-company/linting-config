@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/tree-company/linting-config",
   "author": "Tree company <info@treecompany.be>",
-  "contributors": ["Robbe Van Petegem <robbe@vanpetegem.me>"],
+  "contributors": ["Robbe Van Petegem <git@robbevp.be>"],
   "license": "MIT",
   "type": "module",
   "private": true,

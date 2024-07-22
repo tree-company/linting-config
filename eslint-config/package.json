@@ -5,7 +5,7 @@
   "repository": "git@github.com:tree-company/developer-handbook",
   "author": "Tree company <info@treecompany.be>",
   "contributors": [
-    "Robbe Van Petegem <robbe@vanpetegem.me>"
+    "Robbe Van Petegem <git@robbevp.be>"
   ],
   "license": "MIT",
   "main": "index.js",
