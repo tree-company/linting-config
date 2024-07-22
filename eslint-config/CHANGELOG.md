@@ -1,3 +1,6 @@
+# v0.4.3 - 2024/07/22
+* Release new version with updated `eslint-plugin-react`
+
 # v0.4.2 - 2024/05/06
 * Fix react config
 
