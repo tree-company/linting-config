@@ -9,7 +9,7 @@
   "main": "css.js",
   "scripts": {},
   "dependencies": {
-    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard": "^38.0.0",
     "stylelint-config-standard-scss": "^14.0.0",
     "stylelint-order": "^6.0.4",
     "stylelint-prettier": "^5.0.3",
