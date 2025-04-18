@@ -1,3 +1,6 @@
+# v0.5.0 - 2025/04/18
+Nothing changed - version bump to match other packages
+
 # v0.4.3 - 2024/07/22
 * Release new version with updated `eslint-plugin-react`
 
