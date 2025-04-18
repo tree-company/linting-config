@@ -1,5 +1,6 @@
 # v0.5.0 - 2025/04/18
 * Update BEM pattern to allow global modifiers: [#170](https://github.com/tree-company/linting-config/pull/170)
+* Disallow `!important`: [#97](https://github.com/tree-company/linting-config/pull/97)
 
 # v0.4.3 - 2024/07/22
 Nothing changed - version bump to match other packages
