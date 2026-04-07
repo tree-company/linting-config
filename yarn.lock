@@ -2216,10 +2216,10 @@ stylelint-scss@^6.12.0:
     postcss-selector-parser "^7.1.0"
     postcss-value-parser "^4.2.0"
 
-stylelint-semantic-groups@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/stylelint-semantic-groups/-/stylelint-semantic-groups-1.2.1.tgz#d756882e83b2d9682fc4e0d40ed2effa1fc298db"
-  integrity sha512-MGBGIdpeK8nN018AZwAw0AwFKly4XDnKA5Ypz9Ojp+k1YAtmwb6uj5n4BLW9mfNCVFM7YMxNMR1hpNzRuzaYHQ==
+stylelint-semantic-groups@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/stylelint-semantic-groups/-/stylelint-semantic-groups-1.2.2.tgz#5270278a499d4acf2fd741626487d52ef0dc2c0c"
+  integrity sha512-zyxDmqj1Npi4ubUQmKzY4THA6K/zCr/iu8L+Nct+xX4KIVpiWMk8Y/lS/AHQtuZtSQhkPiYIfF2KI4Y0VNh35A==
   dependencies:
     tslib "^2.1.0"
 
