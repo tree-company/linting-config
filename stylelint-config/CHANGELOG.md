@@ -1,5 +1,6 @@
 # unreleased
 * Remove the SCSS config. We haven't used SCSS in a long time, and will no longer support it
+* Update minimum version of stylelint to v17.x
 
 # v0.5.0 - 2025/04/18
 * Update BEM pattern to allow global modifiers: [#170](https://github.com/tree-company/linting-config/pull/170)
