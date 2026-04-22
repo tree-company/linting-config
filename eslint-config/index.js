@@ -22,6 +22,7 @@ const defaultConfig = [
       curly: ["warn", "multi-line", "consistent"],
       "no-console": process.env.NODE_ENV === "production" ? "error" : "warn",
       "no-debugger": process.env.NODE_ENV === "production" ? "error" : "warn",
+      eqeqeq: ["warn", "always"],
     },
   },
 ];
