@@ -45,6 +45,8 @@ const reactConfig = [
     },
     rules: {
       "react/prop-types": 0,
+      // noreferrer not needed in modern browsers https://github.com/jsx-eslint/eslint-plugin-react/issues/3672
+      "react/jsx-no-target-blank": "off",
     },
   },
 ];
