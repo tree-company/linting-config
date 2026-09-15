@@ -1,7 +1,7 @@
 # @tree-company/stylelint-config
 
 ## How to install
-Install using `yarn add -D @tree-company/eslint-config eslint prettier`.
+Install using `npm add -D @tree-company/eslint-config eslint prettier`.
 
 ## How to use
 You can add our base eslint config in the following way:
