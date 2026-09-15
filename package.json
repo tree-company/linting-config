@@ -14,7 +14,7 @@
     "stylelint-config"
   ],
   "scripts": {
-    "lint": "yarn lint:js",
+    "lint": "npm run lint:js",
     "lint:js": "eslint . --fix"
   },
   "devDependencies": {

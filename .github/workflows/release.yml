@@ -3,7 +3,7 @@ name: Release Package
 on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 
 jobs:
   release:
@@ -11,31 +11,33 @@ jobs:
     env:
       GITHUB_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     steps:
-    - uses: actions/checkout@v7
-    - name: Set up Node
-      uses: actions/setup-node@v7
-      with:
-        node-version: 'lts/*'
-        cache: 'yarn'
-        registry-url: 'https://npm.pkg.github.com'
-        # Defaults to the user or organization that owns the workflow file
-        scope: '@tree-company'
-    - name: Install dependencies
-      run: yarn install
-    - name: Parse tag
-      id: parse_tag
-      run: "echo ${{ github.ref }} | sed 's#^refs/tags/#::set-output name=version::#'"
-    - name: Publish
-      run: yarn workspace @tree-company/eslint-config publish && yarn workspace @tree-company/stylelint-config publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Create release
-      id: create_release
-      uses: release-drafter/release-drafter@v7
-      with:
-        name: ${{ steps.parse_tag.outputs.version }}
-        tag: ${{ steps.parse_tag.outputs.version }}
-        version: ${{ steps.parse_tag.outputs.version }}
-        publish: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v7
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: "lts/*"
+          cache: "npm"
+          registry-url: "https://npm.pkg.github.com"
+          # Defaults to the user or organization that owns the workflow file
+          scope: "@tree-company"
+      - name: Install dependencies
+        run: "npm ci"
+      - name: Parse tag
+        id: parse_tag
+        run: "echo ${{ github.ref }} | sed 's#^refs/tags/#::set-output name=version::#'"
+      - name: Publish
+        run: |
+          npm publish --workspace=@tree-company/eslint-config
+          npm publish --workspace=@tree-company/stylelint-config
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create release
+        id: create_release
+        uses: release-drafter/release-drafter@v7
+        with:
+          name: ${{ steps.parse_tag.outputs.version }}
+          tag: ${{ steps.parse_tag.outputs.version }}
+          version: ${{ steps.parse_tag.outputs.version }}
+          publish: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
