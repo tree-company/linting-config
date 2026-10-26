@@ -1,3 +1,6 @@
+# Unrelease
+* Allow version of eslint v10.x.x
+
 # v0.6.0 - 2026/04/27
 * Enforce strict equality
 
