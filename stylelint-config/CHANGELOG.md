@@ -1,3 +1,6 @@
+# unreleased
+* Update minimum version of stylelint to v18.x
+
 # v0.6.0 - 2026/04/27
 * Remove the SCSS config. We haven't used SCSS in a long time, and will no longer support it
 * Update minimum version of stylelint to v17.x
