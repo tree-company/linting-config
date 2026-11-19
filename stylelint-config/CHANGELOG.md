@@ -1,4 +1,4 @@
-# unreleased
+# v0.6.1 - 2026/11/19
 * Update minimum version of stylelint to v18.x
 
 # v0.6.0 - 2026/04/27

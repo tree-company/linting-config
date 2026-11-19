@@ -1,3 +1,6 @@
+# v0.6.1 - 2026/11/19
+* Disabled `noreferrer` rule
+
 # v0.6.0 - 2026/04/27
 * Enforce strict equality
 
